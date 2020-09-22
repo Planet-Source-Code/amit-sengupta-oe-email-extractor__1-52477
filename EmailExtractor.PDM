@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\EmailExtractor\deploy
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+3=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+G:\WINNT\system32\COMDLG32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Projects\EmailExtractor\EmailExtractor.exe=Yes
+G:\WINNT\system32\msvbvm60.dll=Yes
+G:\WINNT\system32\OLEAUT32.DLL=Yes
+G:\WINNT\system32\OLEPRO32.DLL=Yes
+G:\WINNT\system32\ASYCFILT.DLL=Yes
+G:\WINNT\system32\STDOLE2.TLB=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+G:\WINNT\system32\MSFLXGRD.OCX=Yes
+G:\WINNT\system32\COMCTL32.OCX=Yes
+G:\WINNT\system32\COMDLG32.OCX=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+G:\WINNT\system32\VB6STKIT.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Projects\EmailExtractor\EmailExtractor.exe=$(AppPath)
+G:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+G:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+G:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+G:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+G:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+G:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+G:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+G:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+G:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Projects\EmailExtractor\EmailExtractor.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=EmailExtractor 1.0.1 Beta
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=EmailExtractor 1.0.1 Beta
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|EmailExtractor 1.0.1 Beta]
+Icon1=EmailExtractor.exe
+Title1=EmailExtractor 1.0.1 Beta
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Projects\EmailExtractor\deploy
+ProjectFolder=D:\Projects\EmailExtractor
+ServerSideCab=
+File1=D:\Projects\EmailExtractor\deploy\setup.exe
+File2=D:\Projects\EmailExtractor\deploy\Setup.Lst
+File3=D:\Projects\EmailExtractor\deploy\EmailExtractor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
